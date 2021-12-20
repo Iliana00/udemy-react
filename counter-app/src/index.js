@@ -1,12 +1,15 @@
-import React from 'react';
+import React from 'react'; // rafcp crear un functional component con el mismo nombre del archivo
 import ReactDOM from 'react-dom';
-import PrimeraApp from './PrimeraApp';
+import CounterApp from './CounterApp';
+//import PrimeraApp from './PrimeraApp';
+
 
 import './index.css'
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render( <PrimeraApp />,  divRoot)
+
+ReactDOM.render( <CounterApp value={ 3214 } />,  divRoot)
 
 
 
