@@ -1,0 +1,11 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    padding: 60px;
+}
+input{
+    color: brown;
+    font-size: 1.2rem;
+    width: 100%;
+}
